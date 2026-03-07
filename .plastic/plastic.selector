@@ -1,0 +1,4 @@
+repository "SpadyEXE/SpadyEXE@7972310953302@cloud"
+  path "/"
+    br "/main"
+    co "/main"
