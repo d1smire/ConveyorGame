@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/SpadyGameplayV1.unity
     guid: 3aa5877ae458a8d41bf53678a8d2d9c4
-  - enabled: 0
-    path: Assets/Game/Scenes/SpadyGameplayV2.unity
-    guid: 552051ab270772246bbf32a69de1aabc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 4e93175ab7e9f4b4cb1a55879528c8ac, type: 3}
   m_UseUCBPForAssetBundles: 0

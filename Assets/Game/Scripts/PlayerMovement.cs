@@ -5,13 +5,12 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private InputActionReference move;
     [SerializeField] private CharacterController characterController;
-    [SerializeField] private Score _score;
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private bool isButtonPressed;
 
     private Vector2 moveInput;
 
-    private void Awake()
+    private void Start()
     {
         if (!characterController)
             characterController = GetComponent<CharacterController>();
@@ -24,11 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 moveVector = new Vector3(moveInput.x, 0f, 0f);
         characterController.Move(moveVector * movementSpeed * Time.deltaTime);
-    }
-
-    public void AddScores(float score) 
-    {
-        _score.AddRemoveScore(score);
     }
 
     public void MoveLeftDown()

@@ -4446,8 +4446,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
+  m_sharedMaterial: {fileID: 5526911059996775524, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4471,7 +4471,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.6
+  m_fontSize: 0.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5518,6 +5518,37 @@ Transform:
   m_Children:
   - {fileID: 2071102096}
   m_Father: {fileID: 389144183}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &793025363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793025364}
+  m_Layer: 0
+  m_Name: BoxPool_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &793025364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793025363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1677468184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &801390611 stripped
 Transform:
@@ -10489,10 +10520,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Hard
+  m_text: Settings
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
+  m_sharedMaterial: {fileID: 5526911059996775524, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10516,7 +10547,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.4
+  m_fontSize: 0.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11908,10 +11939,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Play Normal
+  m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
+  m_sharedMaterial: {fileID: 5526911059996775524, guid: 3d721a35dd9f02943aa3891cf16994c1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11935,7 +11966,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.4
+  m_fontSize: 0.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11974,7 +12005,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.10283077, z: 0, w: 0.1335265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -12518,8 +12549,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1677468184}
-  - component: {fileID: 1677468185}
-  - component: {fileID: 1677468186}
+  - component: {fileID: 1677468188}
+  - component: {fileID: 1677468187}
   m_Layer: 0
   m_Name: ConveyorParent
   m_TagString: Untagged
@@ -12553,9 +12584,11 @@ Transform:
   - {fileID: 1852541486}
   - {fileID: 994063995}
   - {fileID: 1045375610}
+  - {fileID: 793025364}
+  - {fileID: 1816396760}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1677468185
+--- !u!114 &1677468187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12564,19 +12597,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677468183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a14c86ee5d5564085846728281837c, type: 3}
+  m_Script: {fileID: 11500000, guid: c293f49df4a12594391a5fd850c423ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ConveyorMenuMove
-  conveyor: {fileID: 1156823260}
-  startPoint: {fileID: 1279561674}
-  endPoint: {fileID: 663682585}
+  m_EditorClassIdentifier: Assembly-CSharp::ConveyorManager
+  spawnPoints:
+  - {fileID: 589293813}
+  destination: {fileID: 2132847043}
   totesToSpawn:
   - {fileID: 2336747321642570351, guid: 1ee103137f43b854a832d0d00aa8b6f0, type: 3}
   - {fileID: 6528998724347592384, guid: 759c4f6cb4ac06b459b8197a649997d3, type: 3}
   - {fileID: 4677382821600199075, guid: 345df04ddff3a88479ec6e2dd4c7be39, type: 3}
-  SpawningDeley: 2
-  ConveyorSpeed: 3
---- !u!114 &1677468186
+  parentOfPoolObj: {fileID: 1816396759}
+  IsCycled: 1
+  conveyorSpeed: 2
+  conveyorSpawnDeley: 4
+--- !u!114 &1677468188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12585,18 +12620,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677468183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a14c86ee5d5564085846728281837c, type: 3}
+  m_Script: {fileID: 11500000, guid: c293f49df4a12594391a5fd850c423ab, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ConveyorMenuMove
-  conveyor: {fileID: 1610063166}
-  startPoint: {fileID: 589293812}
-  endPoint: {fileID: 2132847042}
+  m_EditorClassIdentifier: Assembly-CSharp::ConveyorManager
+  spawnPoints:
+  - {fileID: 1279561675}
+  destination: {fileID: 663682586}
   totesToSpawn:
   - {fileID: 2336747321642570351, guid: 1ee103137f43b854a832d0d00aa8b6f0, type: 3}
   - {fileID: 6528998724347592384, guid: 759c4f6cb4ac06b459b8197a649997d3, type: 3}
   - {fileID: 4677382821600199075, guid: 345df04ddff3a88479ec6e2dd4c7be39, type: 3}
-  SpawningDeley: 10
-  ConveyorSpeed: 4
+  parentOfPoolObj: {fileID: 793025363}
+  IsCycled: 1
+  conveyorSpeed: 2
+  conveyorSpawnDeley: 2
 --- !u!1 &1682046486
 GameObject:
   m_ObjectHideFlags: 0
@@ -13482,6 +13519,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1816396759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816396760}
+  m_Layer: 0
+  m_Name: BoxPool_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816396760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816396759}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1677468184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1820970731
 GameObject:
@@ -14813,7 +14881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 8.54, y: 1.15}
+  m_AnchoredPosition: {x: 8.54, y: 0.951}
   m_SizeDelta: {x: 1.55, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039135482
@@ -14861,7 +14929,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039135480}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -14897,19 +14965,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2039135482}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 330585548}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: PlayInSomeMode
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2047634820
 GameObject:
   m_ObjectHideFlags: 0

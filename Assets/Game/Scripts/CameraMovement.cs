@@ -9,12 +9,12 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private Transform targetPosition;
     [SerializeField] private float duration = 2f;
 
-    [Header("Smoth settings")]
+    [Header("Smooth settings")]
     [SerializeField] private AnimationCurve startMovementCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     [SerializeField] private AnimationCurve endMovementCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
 
-    public event Action<bool,string> isAnimationEnd; 
+    public event Action<bool, TypeOfAnimationEnd> onAnimationEnd; 
 
     public void EndMovement() 
     {
@@ -34,7 +34,7 @@ public class CameraMovement : MonoBehaviour
         while (elapsedTime < time)
         {
             float linearProgress = elapsedTime / time; // calculating linear progress time from 0 to 1
-            float easedProgress = movementCurve.Evaluate(linearProgress); // converting linear progress on a smoth move progress
+            float easedProgress = movementCurve.Evaluate(linearProgress); // converting linear progress on a smooth move progress
             transform.position = Vector3.Lerp(startPosition, target, easedProgress); // moving our obj.
 
             elapsedTime += Time.deltaTime;
@@ -43,8 +43,8 @@ public class CameraMovement : MonoBehaviour
 
         transform.position = target; // fix final position
         if (transform.position == targetPosition.position) 
-            isAnimationEnd.Invoke(true, "Start");
+            onAnimationEnd?.Invoke(true, TypeOfAnimationEnd.StartUpMenu);
         else
-            isAnimationEnd.Invoke(true, "Leave");
+            onAnimationEnd?.Invoke(true, TypeOfAnimationEnd.LeaveStartUp);
     }
 }
